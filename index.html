@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>//ps30214.thegioididong.asm</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="thegioididong.css">
+</head>
+<body>
+    <header>
+        <img style="width: 1500px" src="img/anh 1.jpg" alt="logo">
+
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#"><img style="width: 250px" src="img/anh 2.jpg" alt="thegioididong"></a></li>
+                <li id="adress-from"><a href="#"> <button>Xem giá tại tồn kho <br> <strong>Hồ Chí Minh...</strong><i class="fas fa-caret-down"></i></button></a></li>               
+                <li><input type="text" placeholder="Bạn tìm gì..."><i class="fas fa-search"></i></li>
+                <li><a href="#"><button></i>Lịch sử đơn <br> hàng</button></a></li>
+                <li><a href="#"><button><i class="fas fa-shopping-cart"></i></i>  Giỏ Hàng</button></a></li>
+                <li><a href="#">24h Công Nghệ</a></li>
+                <li><a href="#">Hỏi đáp</a></li>
+                <li><a href="#">Game app</a></li>
+                <div class="adress-from">
+                    <div class="adress-from-content">
+                        <h2>Chọn địa chỉ nhận hàng <span id="adress-close">x Đóng</span> </h2>
+                        <form action="">
+                            <p>Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao hàng</p>
+                            <select name="" id="">
+                                <option value="#">--Chọn địa điểm</option>
+                                <option value="#">
+                                    Hồ Chí Minh
+                                </option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">--Chọn địa Quận, Huyện</option>
+                                <option value="#">Quận 12</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">--Chọn địa Phường, Xã</option>
+                                <option value="#">Trung Mỹ Tây</option>
+                            </select>    
+                            <input type="test"placeholder="Số nhà, tên đường">
+                            <button id="adress-close">Xác nhận</button>
+                        </form>
+                    </div>
+                </div>
+            </ul>  
+        </div>
+    </nav>
+
+    <section class="menu-bar">  
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href="#"><i class="fas fa-mobile-alt"></i> Điện thoại</a></li>
+                    <li><a href="#"><i class="fas fa-laptop"></i> Laptop</a></li>
+                    <li><a href="#"><i class="fas fa-table"></i> Table</a></li>
+                    <li>
+                        <a href="#"><i class="fas fa-headphones-alt"></i> Phụ kiện </a><i class="fas fa-caret-down"></i>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="#">Sạc dự phòng</a></li>
+                                <li><a href="#">Sạc, cáp</a></li>
+                                <li><a href="#">Ốp lưng điện thoại</a></li>
+                                <li><a href="#">Miếng dán màn hình</a></li>
+                                <li><a href="#">Giá đỡ điện thoại</a></li>
+                                <li><a href="#">Chuột, bàn phím</a></li>
+                                <li><a href="#">Tai nghe, loa</a></li>
+                                <li><a href="#">Thiết bị mạng</a></li>
+                                <li><a href="#">Túi chống nước</a></li>
+                                <li><a href="#">Phụ kiện Tablet</a></li>
+                                <li><a href="#">Đế móc điện thoại</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#"><i class="far fa-clock"></i> SmartWatch</a></li>
+                    <li><a href="#"><i class="fas fa-tablet-alt"></i> Máy cũ giá rẻ</a></li>
+                    <li>
+                        <a href="#"><i class="fas fa-desktop"></i> PC, Máy in </a><i class="fas fa-caret-down"></i>
+                        <div class="submenu-menu">
+                            <ul>
+                                <li><a href="">Máy in</a></li>
+                                <li><a href="">Mực in</a></li>
+                                <li><a href="">Màn hình máy tính</a></li>
+                                <li><a href="">Máy tính để bàn</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Sim, Thẻ cào</a></li>
+                    <li><a href="#">Dịch vụ tiện ích </a><i class="fas fa-caret-down"></i></li> 
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <br> <div>
+        <center>
+            <img style="width: 1100px;" src="img/anh 0.jpg" alt="anh 0">
+            <br>
+            <img style="width: 1100px;" src="img/an 4.jpg" alt="anh 4">
+            <img style="width: 1200px;" src="img/anh 4.jpg" alt="anh 4">
+        </center>
+    </div>
+
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-tile">
+                <h1>
+                    HOT SALE GIẢM TỚI 60%
+                </h1>
+            </div>
+            <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                    <img src="img/banner 1.jpg" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>Xiaomi Redmi 10A</h4></li>
+                        <li>Online giá rẻ</li>
+                        <li><h3>2.xxx.000<sub>đ</sub></h3></li>
+                        <li><del>2.890.000</del><sub>đ</sub></li>
+                        <li><button>Sắp mở bán</button></li>
+                    </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                    <img src="img/banner 2.jpg" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>ELIO 36.3 ES007-01</h4></li>
+                        <li>Online giá rẻ</li>
+                        <li><h3>xxx.000<sub>đ</sub></h3></li>
+                        <li><del>1.390.000</del><sub>đ</sub></li>
+                        <li><button>Sắp mở bán</button></li>
+                    </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                    <img src="img/banner 3.jpg" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>iPhone 14 Plus 512GB</h4></li>
+                        <li>Online giá rẻ</li>
+                        <li><h3>2x.xx0.000<sub>đ</sub></h3></li>
+                        <li><del>36.990.000</del><sub>đ</sub></li>
+                        <li><button>Sắp mở bán</button></li>
+                    </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                    <img src="img/banner 4.jpg" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>iPhone 12 256GB</h4></li>
+                        <li>Online giá rẻ</li>
+                        <li><h3>1x.xx0.000<sub>đ</sub></h3></li>
+                        <li><del>23.990.000</del><sub>đ</sub></li>
+                        <li><button>Sắp mở bán</button></li>
+                    </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                    <img src="img/banner 5.jpg" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>Mbest DS506-WB</h4></li>
+                        <li>Online giá rẻ</li>
+                        <li><h3>xxx.000<sub>đ</sub></h3></li>
+                        <li><del>750.000</del><sub>đ</sub></li>
+                        <li><button>Sắp mở bán</button></li>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+    <center>
+        <br>
+    <img style="width: 1200px;" src="img/330933153_1250437052492021_2335824761180675621_n.png" alt="">
+    </center>
+</section>
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-tile">
+                <h1>
+                    LAP TOP Deal Ngon Mỗi Ngày
+                </h1>
+            </div>
+            <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                    <img src="img/laptop 1.webp" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>Laptop Acer Aspire 7 Gaming A715 42G R4XX R5 5500U/8GB/256GB/4GB GTX1650/Win11</h4></li>
+                        <li style="color: blue;">Quà 100.000<sup>đ</sup></li>
+                        <li> Giảm -13%</li>
+                        <li><h3>15.990.000<sub>đ</sub></h3></li> 
+                        <li><del>18.490.000</del><sub>đ</sub></li>
+                        <li><button>Mua Ngay</button></li>
+                    </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                    <img src="img/laptop2.webp" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>Laptop Acer Aspire 5 A514 54 511G i5 1135G7/8GB/1TB SSD/Win11 (NX.A28SV.009)</h4></li>
+                        <li style="color: blue;">Quà 100.000<sup>đ</sup></li>
+                        <li> Giảm -22%</li>
+                        <li><h3>15.490.000<sub>đ</sub></h3></li>
+                        <li><del>19.990.000</del><sub>đ</sub></li>
+                        <li><button>Mua ngay</button></li>
+                    </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                    <img src="img/laptop3.webp" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>Laptop Acer Nitro 5 Gaming AN515 45 R6EV R5 5600H/8GB/512GB/144Hz GTX1650/Win11</h4></li>
+                        <li style="color: blue;">Quà 100.000<sup>đ</sup></li>
+                        <li> Giảm -14%</li>
+                        <li><h3>19.240.000<sub>đ</sub></h3></li>
+                        <li><del>22.490.000</del><sub>đ</sub></li>
+                        <li><button>Mua ngay</button></li>
+                    </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                    <img src="img/laptop4.webp" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>Laptop Acer Aspire 3 A315 58 52KT i5 1135G7/8GB/512GB/Win11 (NX.AM0SV.006)</h4></li>
+                        <center><p>...</p></center>
+                        <li style="color: blue;">Quà 100.000<sup>đ</sup></li>
+                        <li> Giảm -14%</li>                
+                        <li><h3><sub>15.900.000đ</sub></h3></li>
+                        <li><del>16.990.000</del><sub>đ</sub></li>                      
+                        <li><button>Mua ngay</button></li>
+                    </div>
+                </div>
+                <div class="slider-product-one-content-item">
+                    <img src="img/laptop5.webp" alt="banner 1">
+                    <div class="slider-product-one-content-item-text">
+                        <li><h4>Laptop Acer TravelMate B3 TMB311 31 C2HB N4020/4GB/128GB/Win11 (NX.VNFSV.006)</h4></li>
+                        <center><p>...</p></center>
+                        <li style="color: blue;">Quà 100.000<sup>đ</sup></li>
+                        <li> Giảm -50%</li>                        
+                        <li><h3>4.990.000<sub>đ</sub></h3></li>
+                        <li><del>9.990.000</del><sub>đ</sub></li>                      
+                        <li><button>Mua Ngay</button></li>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <section class="product-gallery-one"> 
+        <div class="container">
+            <div class="product-gallery-one-content">
+                <div class="product-gallery-one-content-title">
+                    <br>
+                    <h2>ĐIỆN THOẠI NỔI BẬT NHẤT</h2>
+                    <ul>
+                        <li><a href="">SamSung Galaxy</a></li>
+                        <li><a href="">iPhone</a></li>
+                        <li><a href="">Realme</a></li>
+                        <li><a href="">Xem tất cả</a></li>
+                    </ul>
+                </div>
+                <div class="product-gallery-one-content-product">
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung 1.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy Z Flip4 512GB</h4></li>
+                            <li><del>29.490.000</del><sub>đ -28%</sub></li>                
+                            <li><strong><h3>20.990.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> 17</li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung2.jpeg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy S20 FE (8GB/256GB)</h4></li>
+                            <li><del>12.490.000</del><sub>đ -24%</sub></li>                
+                            <li><strong><h3>9.490.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> 280</li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung3.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy Z Fold3 5G 256GB</h4></li>
+                            <li><del>41.990.000</del><sub>đ -42%</sub></li>                
+                            <li><strong><h3>21.990.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> 38</li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung4.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy A73 5G Awesome Edition</h4></li>
+                            <li><del>12.690.000</del><sub>đ -13%</sub></li>                
+                            <li><strong><h3>10.990.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> 39</li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung5.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy Z Fold4 256GB</h4></li>
+                            <li><del>40.990.000</del><sub>đ -12%</sub></li>                
+                            <li><strong><h3>35.990.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 52</li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung6.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy S23 Ultra 5G 256GB</h4></li>
+                            <li><li><button><h5>Hàng sắp về</h5></button></li></li>            
+                            <li><strong><h3>31.990.000</strong><sub>đ</sub></h3></li>
+                            <button>Xem Ngay</button>       
+                            <li>
+                                <p>• Chip Snapdragon 8 Gen 2 8 nhân</p>
+                                <p>• RAM: 8 GB</p>
+                                <p>• Dung lượng: 256 GB</p>
+                                <p>• Camera sau: Chính 200MP & Phụ 12MP, 10MP, 10MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin, sạc: 5000 mAh, 45W</p>    
+                            </li>                    
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung7.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy S22 Ultra 5G 128GB</h4></li>
+                            <li><li><button><h5>Hàng sắp về</h5></button></li></li>            
+                            <li><strong><h3>23.990.000</strong><sub>đ</sub></h3></li>
+                            <button>Xem Ngay</button>       
+                            <li>
+                                <p>• Chip Snapdragon 8 Gen 1</p>
+                                <p>• RAM: 8GB</p>
+                                <p>• Dung lượng: 128GB</p>
+                                <p>• Camera sau: 108.0MP + 12.0MP + 10.0MP + 10.0MP</p>
+                                <p>• Camera Selfie: 40.0MP</p>
+                                <p>• Pin 5000 mAh</p>    
+                            </li>                    
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung8.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy S23+ 5G 512GB</h4></li>
+                            <li><li><button><h5>Hàng sắp về</h5></button></li></li>            
+                            <li><strong><h3>29.990.000</strong><sub>đ</sub></h3></li>
+                            <button>Xem Ngay</button>       
+                            <li>
+                                <p>• Chip Snapdragon 8 Gen 2 8 nhân</p>
+                                <p>• RAM: 8GB</p>
+                                <p>• Dung lượng: 512 GB</p>
+                                <p>• Camera sau: Chính 50MP & Phụ 12MP, 10MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin, sạc: 4700 mAh, 45W</p>    
+                            </li>                    
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung9.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy S23+ 5G 256GB</h4></li>
+                            <li><li><button><h5>Hàng sắp về</h5></button></li></li>            
+                            <li><strong><h3>26.990.000</strong><sub>đ</sub></h3></li>
+                            <button>Xem Ngay</button>       
+                            <li>
+                                <p>• Chip Snapdragon 8 Gen 2 8 nhân</p>
+                                <p>• RAM: 8GB</p>
+                                <p>• Dung lượng: 256GB</p>
+                                <p>• Camera sau: Chính 50MP & Phụ 12MP, 10MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin, sạc: 4700 mAh, 45W</p>    
+                            </li>                    
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/samsung10.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy S23 5G 256GB</h4></li>
+                            <li><li><button><h5>Hàng sắp về</h5></button></li></li>            
+                            <li><strong><h3>24.990.000</strong><sub>đ</sub></h3></li>
+                            <button>Xem Ngay</button>       
+                            <li>
+                                <p>• Chip Snapdragon 8 Gen 2 8 nhân</p>
+                                <p>• RAM: 8 GB</p>
+                                <p>• Dung lượng: 256GB</p>
+                                <p>• Camera sau: Chính 50MP & Phụ 12MP, 10MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin, sạc: 3900 mAh, 25W</p>    
+                            </li>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-gallery-one"> 
+        <div class="container">
+            <div class="product-gallery-one-content">
+                <div class="product-gallery-one-content-title">
+                    <br>
+                    <h2>iPhone SALE, TRẢ GÓP 0% DÀNH CHO BẠN</h2>
+                    <ul>
+                        <li><a href="">iPhone</a></li>
+                        <li><a href="">Xem tất cả</a></li>
+                    </ul>
+                </div>
+                <div class="product-gallery-one-content-product">
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip1.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 14 Pro Max 128GB</h4></li>                           
+                            <li><del>34.490.000</del><sub>đ -14%</sub></li>                
+                            <li><strong><h3>29.490.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 197</li>
+                            <li>
+                                <p>• Chip  Apple A16 Bionic</p>
+                                <p>• RAM: 6 GB</p>
+                                <p>• Dung lượng: 128 GB</p>
+                                <p>• Camera sau: Chính 48 MP & Phụ 12 MP, 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 4323 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip2.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 11 64GB</h4></li>
+                            <li><del>14.990.000</del><sub>đ -16%</sub></li>                
+                            <li><strong><h3>12.490.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> 750</li>
+                            <li>
+                                <p>• Chip Apple A13 Bionic</p>
+                                <p>• RAM: 4 GB</p>
+                                <p>• Dung lượng: 64 GB</p>
+                                <p>• Camera sau: 2 camera 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 3110 mAh, Sạc 18 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip3.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 13 Pro Max 1TB</h4></li>
+                            <li><del>36.990.000</del><sub>đ -10%</sub></li>                
+                            <li><strong><h3>32.990.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 28</li>
+                            <li>
+                                <p>• Chip Apple A15 Bionic</p>
+                                <p>• RAM: 6 GB</p>
+                                <p>• Dung lượng: 1 TB</p>
+                                <p>• Camera sau: 3 camera 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 4352 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip4.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 13 Pro 1TB</h4></li>
+                            <li><del>32.990.000</del><sub>đ -12%</sub></li>                
+                            <li><strong><h3>28.990.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i> 7</li>
+                            <li>
+                                <p>• Chip Apple A15 Bionic</p>
+                                <p>• RAM: 6 GB</p>
+                                <p>• Dung lượng: 1 TB</p>
+                                <p>• Camera sau: 3 camera 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 3095 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip5.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 14 Pro 128GB</h4></li>
+                            <li><del>30.990.000</del><sub>đ -12%</sub></li>                
+                            <li><strong><h3>27.190.000</strong><sub>đ</sub></h3></li>                     
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 98</li>
+                            <li>
+                                <p>• Chip  Apple A16 Bionic</p>
+                                <p>• RAM: 6 GB</p>
+                                <p>• Dung lượng: 128 GB</p>
+                                <p>• Camera sau: Chính 48 MP & Phụ 12 MP, 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 3200 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip6.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 14 Plus 128GB</h4></li>   
+                            <li><del>27.990.000</del><sub>đ -8%</sub></li>          
+                            <li><strong><h3>25.490.000</strong><sub>đ</sub></h3></li>
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 27</li>       
+                            <li>
+                                <p>• Chip Apple A15 Bionic</p>
+                                <p>• RAM: 6 GB</p>
+                                <p>• Dung lượng: 128 GB</p>
+                                <p>• Camera sau: 2 camera 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 4325 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>                   
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip7.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 14 128GB</h4></li>
+                            <li><del>24.990.000</del><sub>đ -8%</sub></li>             
+                            <li><strong><h3>22.990.000</strong><sub>đ</sub></h3></li>
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i> 39</li>       
+                            <li>
+                                <p>• Chip  Apple A16 Bionic</p>
+                                <p>• RAM: 6 GB</p>
+                                <p>• Dung lượng: 128 GB</p>
+                                <p>• Camera sau: Chính 48 MP & Phụ 12 MP, 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 3279 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>                   
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip8.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 13 128GB</h4></li>
+                            <li><del>20.490.000</del><sub>đ -18%</sub></li>            
+                            <li><strong><h3>24.990.000</strong><sub>đ</sub></h3></li>
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> 300</li>       
+                            <li>
+                                <p>• Chip  Apple A16 Bionic</p>
+                                <p>• RAM: 4 GB</p>
+                                <p>• Dung lượng: 128 GB</p>
+                                <p>• Camera sau: 2 camera 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 3240 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>                    
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip9.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 13 mini 128GB</h4></li>
+                            <li><del>21.990.000</del><sub>đ -18%</sub></li>            
+                            <li><strong><h3>17.990.000</strong><sub>đ</sub></h3></li>
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 88</li>       
+                            <li>
+                                <p>• Chip  Apple A16 Bionic</p>
+                                <p>• RAM: 6 GB</p>
+                                <p>• Dung lượng: 128 GB</p>
+                                <p>• Camera sau: Chính 48 MP & Phụ 12 MP, 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 2438 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>                   
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/ip10.jpg" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><button>Trả góp 0%</button></li>
+                            <li><h4>iPhone 12 64GB</h4></li>
+                            <li><del>19.990.000</del><sub>đ -17%</sub></li>            
+                            <li><strong><h3>16.490.000</strong><sub>đ</sub></h3></li>
+                            <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> 251</li>              
+                            <li>
+                                <p>• Chip  Apple A14 Bionic</p>
+                                <p>• RAM: 4 GB</p>
+                                <p>• Dung lượng: 64 GB</p>
+                                <p>• Camera sau: 2 camera 12 MP</p>
+                                <p>• Camera trước: 12MP</p>
+                                <p>• Pin 2815 mAh, Sạc 20 W</p>    
+                            </li>  
+                            <p style="color: rgb(30, 30, 235);">㊉ So sánh</p>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-gallery-one"> 
+        <div class="container">
+            <div class="product-gallery-one-content">
+                <div class="product-gallery-one-content-title">
+                    <br>
+                    <h2>GỢI Ý HÔM NAY----</h2>
+                    <ul>
+                        <li><a href="">Cho bạn</a> <i class="fas fa-fire-alt"></i></li>
+                        <li><a href="">Tablet giá rẻ</a> <i class="fas fa-table"></i></li>
+                        <li><a href="">Phụ kiện sốc</a> <i class="fas fa-keyboard"></i></li>
+                        <li><a href="">Laptop Gaming</a> <i class="fas fa-laptop"></i></li>
+                    </ul>
+                </div>
+                <div class="product-gallery-one-content-product">
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk1.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>iPhone 14 Pro Max 256GB</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>31.990.000</strong><sub>đ</sub> <span style="font-size: 12px;">-14%</span></h3></li>                     
+                            <li>4.6 <i class="fas fa-star"></i> <span style="color: darkgray;">(100)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk2.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy S21 FE 5G (8GB/256GB) </h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>14.990.000</strong><sub>đ</sub> <span style="font-size: 12px;">-21%</span></h3></li>                     
+                            <li>3.9 <i class="fas fa-star"></i> <span style="color: darkgray;">(101)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk3.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>OPPO Reno8 T 5G 256GB</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>10.990.000</strong><sub>đ</sub></h3></li>                     
+                            <li>3.9 <i class="fas fa-star"></i> <span style="color: darkgray;">(11)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk4.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>POCO C40 </h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>2.990.000</strong><sub>đ</sub> <span style="font-size: 12px;">-14%</span></h3></li>                     
+                            <li>3.8 <i class="fas fa-star"></i> <span style="color: darkgray;">(284)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk5.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Realme 10 </h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>7.190.000</strong><sub>đ</sub></h3></li>                     
+                            <li>4.5 <i class="fas fa-star"></i> <span style="color: darkgray;">(6)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk6].webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy M53</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>9.490.000</strong><sub>đ</sub> <span style="font-size: 12px;">-24%</span></h3></li>                     
+                            <li>3.8 <i class="fas fa-star"></i> <span style="color: darkgray;">(88)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk7.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Vivo V25E </h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>7.990.000</strong><sub>đ</sub> <span style="font-size: 12px;">-5%</span></h3></li>                     
+                            <li>3.6 <i class="fas fa-star"></i> <span style="color: darkgray;">(41)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk8.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy A23 6GB</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>5.490.000</strong><sub>đ</sub></h3></li>                     
+                            <li>3.8 <i class="fas fa-star"></i> <span style="color: darkgray;">(276)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk9.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Laptop Lenovo Ideapad 3 15IAU7 i3 1215U/8GB/256GB/Win11</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>10.990.000</strong><sub>đ</sub> <span style="font-size: 12px;">-20%</span></h3></li>                     
+                            <li>4.4 <i class="fas fa-star"></i> <span style="color: darkgray;">(28)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk10.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Laptop Acer Aspire 3 A315 58 52KT i5 1135G7/8GB/512GB/Win11</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>14.990.000</strong><sub>đ</sub> <span style="font-size: 12px;">-14%</span></h3></li>                     
+                            <li>4.4 <i class="fas fa-star"></i> <span style="color: darkgray;">(37)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk11.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Laptop Apple MacBook Air M1 2020 8GB/256GB/7-core GPU</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>19.990.000</strong><sub>đ</sub> <span style="font-size: 12px;">-27%</span></h3></li>                     
+                            <li>4.5 <i class="fas fa-star"></i> <span style="color: darkgray;">(103)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk12.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Laptop HP 15s fq2662TU i3 1115G4/4GB/256GB/Win11</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>10.490.000</strong><sub>đ</sub> <span style="font-size: 12px;">-18%</span></h3></li>                     
+                            <li>4.3 <i class="fas fa-star"></i> <span style="color: darkgray;">(38)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk13.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Bàn phím Magic Keyboard Apple MK2A3 Trắng</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>2.230.000</strong><sub>đ</sub> <span style="font-size: 12px;">-30%</span></h3></li>                     
+                            <li>4.5 <i class="fas fa-star"></i> <span style="color: darkgray;">(2)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk14.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Polymer 10.000 mAh Type C Anker PowerCore Slim A1229</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>640.000</strong><sub>đ</sub> <span style="font-size: 12px;">-20%</span></h3></li>                     
+                            <li>4.5 <i class="fas fa-star"></i> <span style="color: darkgray;">(23)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk15.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Loa vi tính Enkor E50 Đen</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>480.000</strong><sub>đ</sub> <span style="font-size: 12px;">-40%</span></h3></li>                     
+                            <li>4.3 <i class="fas fa-star"></i> <span style="color: darkgray;">(105)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk16.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Adapter sạc 2 cổng Type C PD 68W GaN Belkin WCH003</h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>1.280.000</strong><sub>đ</sub> <span style="font-size: 12px;">-20%</span></h3></li>                     
+                            <li>4.7 <i class="fas fa-star"></i> <span style="color: darkgray;">(3)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk17.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Đồng hồ thông minh BeFit B4 44mm </h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>490.000</strong><sub>đ</sub> <span style="font-size: 12px;">-30%</span></h3></li>                     
+                            <li>4.3 <i class="fas fa-star"></i> <span style="color: darkgray;">(87)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk18.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy A33 5G 6GB </h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>6.290.000</strong><sub>đ</sub> <span style="font-size: 12px;">-10%</span></h3></li>                     
+                            <li>3.6 <i class="fas fa-star"></i> <span style="color: darkgray;">(201)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk19.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Samsung Galaxy A33 5G 6GB </h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>12.490.000</strong><sub>đ</sub> <span style="font-size: 12px;">-16%</span></h3></li>    
+                            <li><h5 style="color: crimson;">Giá rẻ: 11.590.000</h5></li>                 
+                            <li>4.1 <i class="fas fa-star"></i> <span style="color: darkgray;">(705)</span></li> 
+                        </div>
+                    </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="img/pk20.webp" alt="banner 1">
+                        <div class="product-gallery-one-content-product-item-text">
+                            <li><h4>Realme C21-Y 4GB </h4></li>
+                            <li><h5>Giá tai:</strong> <span style="color: blue;"> Hồ Chí Minh <i style="color: blue;" class="fas fa-angle-down"></i></span></h5></li>            
+                            <li><strong><h3>4.290.000</strong><sub>đ</sub> <span style="font-size: 12px;">-10%</span></h3></li>                     
+                            <li>4.1 <i class="fas fa-star"></i> <span style="color: darkgray;">(39)</span></li> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <center>
+        <br><img style="width: 1200px;" src="img/auder.jpg" alt="">
+        <br>
+        <hr>
+        <script src="js.js"></script>
+        <img style="width: 100%;" src="img/footer.jpg" alt="">
+    </center>
+    
+    
+    <footer>
+        
+        <li>
+            © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.
+Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Xem chính sách sử dụng
+        </li>
+        
+    </footer>
+</body>
+</html>
